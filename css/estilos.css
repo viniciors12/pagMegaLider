@@ -1,0 +1,122 @@
+
+body {
+
+	background-color: white;
+}
+
+.arriba{
+
+	background: #DD1A1A;
+	height: 200px
+}
+
+header, .main, .footer {  /* La imagen y el menu */
+
+	width:90%;  /* el color abarca casi toda la pantalla, porcentaje para que sea igual en cualquier dispositivo */
+    max-width: 1000px;
+	margin: 20px auto; /*para que sea parejo en ambos lados, izq y derecha */
+}
+
+
+
+.my-navbar {
+ 	background-color: white;
+}
+
+.my-navbar ul{
+	width: 100%;
+}
+
+.my-navbar ul li > a{
+	color: #DD1A1A;
+}
+
+
+.mainIns .articles{
+
+	width: 68.5%;
+	margin-right: 1.5%;
+	float: left;
+	background: #fff;
+
+}
+
+
+.separador li:not(.ignore){
+	border-left: 1px solid #DD1A1A;
+}
+
+.main .articles article{
+
+	padding: 20px;
+	background: #fff;
+	margin-bottom:20px;
+	 
+}
+
+.nav-pills .show>.nav-link {
+    color: WHITE;
+    background-color: #DD1A1A;
+}
+
+footer{
+	background: #DD1A1A;
+	color:#fff;
+	clear: both;
+	padding: 10px 0px;
+	text-align: center; /*Pone el texto en el centro*/
+}
+
+
+
+.mainIns {
+
+	width:90%;  /* el color abarca casi toda la pantalla, porcentaje para que sea igual en cualquier dispositivo */
+    max-width: 1000px;
+	margin: 50px auto; /*para que sea parejo en ambos lados, izq y derecha */
+	
+}
+
+
+.btn-primary{
+	background: #DD1A1A;
+	color: white;
+	border-color: white;
+
+}
+
+.nav-link .dropdown-toggle .dropdown-toggle-color{
+
+	color: #DD1A1A;
+}
+
+
+.table-modif{
+	
+	width: 75% !important;
+    margin: 0 auto !important;
+}
+
+.cajita{
+	
+	width: 75% !important;
+    margin: 0 auto !important;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  align-content: center;
+/*  justify-content: center;*/
+}
+
+.flex-item-bottom {
+  align-self: flex-end;
+}
+
+
+.logout{
+
+	float: right;
+    color:white;
+}
